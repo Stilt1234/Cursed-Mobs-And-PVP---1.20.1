@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "cursed-mobs-and-pvp",
+	"version": "${version}",
+	"name": "Cursed Mobs And PVP",
+	"description": "A fun mod to play a prank on your friends. Adds some stuff related to PVP too.",
+	"authors": [
+		"Stilt"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/cursed-mobs-and-pvp/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.stilt.cursedmobsandpvp.CursedMobsAndPVP"
+		],
+		"client": [
+			"net.stilt.cursedmobsandpvp.CursedMobsAndPVPClient"
+		],
+		"fabric-datagen": [
+			"net.stilt.cursedmobsandpvp.CursedMobsAndPVPDataGenerator"
+		]
+	},
+	"mixins": [
+		"cursed-mobs-and-pvp.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
