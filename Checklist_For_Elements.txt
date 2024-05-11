@@ -1,0 +1,39 @@
+Note : This is a checklist for me readding mod elements from previous mod. Ill try to reimplement them in order as best as I can.
+
+Creative Tab :
+1. Cursed Mobs And PVP
+
+Items :
+1. BEANCANNONItem
+2. BEANItem
+3. CursedMilkHarvesterItem
+4. CursedMilkItem
+5. EggShooterItem
+6. FiladIngotItem
+7. RawFiladItem
+8. TechnoShooterAmmoItem
+9. TechnoShooterItem
+
+Blocks :
+1. BlockOfFiladBlock
+2. CursedWoolBlock
+3. CursedEnchanterBlock
+4. FiladOreBlock
+    Block Entity:
+    5. CursedEnchanterBlockEntity
+
+Enchantment :
+1. CursedFallBackEnchantment
+2. Cursed Sharpener Enchantment
+
+Entity :
+1. AttackCowEntity
+2. BEANCANNONProjectileEntity
+3. CursedChickenEntity
+4. CursedSheepEntity
+5. EggShooterProjectileEntity
+6. TechnoBladeEntity
+7. TechnoShooterProjectileEntity
+
+GUI :
+1. CursedEnchanterGUI
