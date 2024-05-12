@@ -16,6 +16,7 @@ public class ModItemGroups {
             .icon(() -> new ItemStack(ModItems.BEAN)).entries((displayContext, entries) -> {
                 entries.add(ModItems.Filad_Ingot);
                 entries.add(ModItems.BEAN);
+                entries.add(ModItems.Raw_Filad);
             }).build());
     
     
