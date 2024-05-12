@@ -5,7 +5,7 @@ Creative Tab :
 
 Items :
 1. BEANCANNONItem
-2. BEANItem
+2. BEANItem : Done
 3. CursedMilkHarvesterItem
 4. CursedMilkItem
 5. EggShooterItem
