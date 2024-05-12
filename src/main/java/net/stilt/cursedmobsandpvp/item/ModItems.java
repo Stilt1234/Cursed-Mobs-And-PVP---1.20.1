@@ -9,7 +9,7 @@ import net.stilt.cursedmobsandpvp.CursedMobsAndPVP;
 
 public class ModItems {
     public static final Item Filad_Ingot = registerItem("filad_ingot", new Item(new FabricItemSettings()));
-    public static final Item BEAN = registerItem("bean", new Item(new FabricItemSettings()));
+    public static final Item BEAN = registerItem("bean", new Item(new FabricItemSettings().food(ModFoodComponents.BEAN)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(CursedMobsAndPVP.Mod_ID, name), item);
