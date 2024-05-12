@@ -9,7 +9,7 @@ Items :
 3. CursedMilkHarvesterItem
 4. CursedMilkItem
 5. EggShooterItem
-6. FiladIngotItem
+6. FiladIngotItem : Done
 7. RawFiladItem
 8. TechnoShooterAmmoItem
 9. TechnoShooterItem
