@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.stilt.cursedmobsandpvp.CursedMobsAndPVP;
+import net.stilt.cursedmobsandpvp.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup cursedmobsandpvp = Registry.register(Registries.ITEM_GROUP,
@@ -17,6 +18,7 @@ public class ModItemGroups {
                 entries.add(ModItems.Filad_Ingot);
                 entries.add(ModItems.BEAN);
                 entries.add(ModItems.Raw_Filad);
+                entries.add(ModBlocks.Cursed_Wool);
             }).build());
     
     

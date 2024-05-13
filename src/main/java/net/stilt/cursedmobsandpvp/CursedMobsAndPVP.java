@@ -1,6 +1,7 @@
 package net.stilt.cursedmobsandpvp;
 
 import net.fabricmc.api.ModInitializer;
+import net.stilt.cursedmobsandpvp.block.ModBlocks;
 import net.stilt.cursedmobsandpvp.item.ModFoodComponents;
 import net.stilt.cursedmobsandpvp.item.ModItemGroups;
 import net.stilt.cursedmobsandpvp.item.ModItems;
@@ -20,5 +21,6 @@ public class CursedMobsAndPVP implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModFoodComponents.registeringFoodComponents();
+		ModBlocks.registerModBlocks();
 	}
 }

@@ -2,5 +2,8 @@
     "item.cursed-mobs-and-pvp.filad_ingot": "Filad Ingot",
     "item.cursed-mobs-and-pvp.raw_filad": "Raw Filad",
     "item.cursed-mobs-and-pvp.bean": "BEAN",
+
+    "block.cursed-mobs-and-pvp.cursed_wool": "Cursed Wool",
+
     "itemgroup.bean": "Cursed Mobs And PVP"
 }
