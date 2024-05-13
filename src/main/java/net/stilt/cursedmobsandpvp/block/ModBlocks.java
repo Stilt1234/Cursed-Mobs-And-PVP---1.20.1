@@ -15,6 +15,8 @@ public class ModBlocks {
 
     public static final Block Cursed_Wool = registerBlocks("cursed_wool",
      new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+    public static final Block Block_Of_Filad = registerBlocks("block_of_filad",
+     new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
 
     private static Block registerBlocks(String name, Block block){

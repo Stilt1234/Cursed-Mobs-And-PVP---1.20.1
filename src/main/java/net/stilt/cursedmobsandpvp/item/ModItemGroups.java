@@ -19,6 +19,7 @@ public class ModItemGroups {
                 entries.add(ModItems.BEAN);
                 entries.add(ModItems.Raw_Filad);
                 entries.add(ModBlocks.Cursed_Wool);
+                entries.add(ModBlocks.Block_Of_Filad);
             }).build());
     
     
