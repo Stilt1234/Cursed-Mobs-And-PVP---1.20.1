@@ -15,8 +15,8 @@ public class ModItemGroups {
     new Identifier(CursedMobsAndPVP.Mod_ID, "bean"),
     FabricItemGroup.builder().displayName(Text.translatable("itemgroup.bean"))
             .icon(() -> new ItemStack(ModItems.BEAN)).entries((displayContext, entries) -> {
-                entries.add(ModItems.Filad_Ingot);
                 entries.add(ModItems.BEAN);
+                entries.add(ModItems.Filad_Ingot);
                 entries.add(ModItems.Raw_Filad);
                 entries.add(ModBlocks.Cursed_Wool);
                 entries.add(ModBlocks.Block_Of_Filad);
