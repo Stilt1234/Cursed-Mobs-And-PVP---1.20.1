@@ -18,8 +18,10 @@ public class ModItemGroups {
                 entries.add(ModItems.BEAN);
                 entries.add(ModItems.Filad_Ingot);
                 entries.add(ModItems.Raw_Filad);
-                entries.add(ModBlocks.Cursed_Wool);
                 entries.add(ModBlocks.Block_Of_Filad);
+                entries.add(ModBlocks.Filad_Ore);
+                entries.add(ModBlocks.Deepslate_Filad_Ore);
+                entries.add(ModBlocks.Cursed_Wool);
             }).build());
     
     

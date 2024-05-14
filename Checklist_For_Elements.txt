@@ -15,8 +15,8 @@ Items :
 9. TechnoShooterItem
 
 Blocks :
-1. BlockOfFiladBlock
-2. CursedWoolBlock
+1. BlockOfFiladBlock : Done
+2. CursedWoolBlock : Done
 3. CursedEnchanterBlock
 4. FiladOreBlock
     Block Entity:

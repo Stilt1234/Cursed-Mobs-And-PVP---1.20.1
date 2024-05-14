@@ -17,7 +17,10 @@ public class ModBlocks {
      new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
     public static final Block Block_Of_Filad = registerBlocks("block_of_filad",
      new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
-
+    public static final Block Filad_Ore = registerBlocks("filad_ore",
+     new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE)));
+    public static final Block Deepslate_Filad_Ore = registerBlocks("deepslate_filad_ore",
+     new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE)));
 
     private static Block registerBlocks(String name, Block block){
         registerBlockItems(name, block);

@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "cursed-mobs-and-pvp:block/deepslate_filad_ore"
+    }
+}

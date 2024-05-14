@@ -5,6 +5,8 @@
 
     "block.cursed-mobs-and-pvp.cursed_wool": "Cursed Wool",
     "block.cursed-mobs-and-pvp.block_of_filad": "Block of Filad",
+    "block.cursed-mobs-and-pvp.filad_ore": "Filad Ore",
+    "block.cursed-mobs-and-pvp.deepslate_filad_ore": "Deepslate Filad Ore",
 
     "itemgroup.bean": "Cursed Mobs And PVP"
 }
