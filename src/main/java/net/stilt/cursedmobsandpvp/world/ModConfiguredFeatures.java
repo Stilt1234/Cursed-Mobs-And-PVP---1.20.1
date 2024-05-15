@@ -24,10 +24,12 @@ public class ModConfiguredFeatures {
         RuleTest deepslateReplaceables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
         List <OreFeatureConfig.Target> overworldFiladOres = 
-                List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.Filad_Ore.getDefaultState())
-                // Add Deepslate Filad
+                List.of(
+                OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.Filad_Ore.getDefaultState()),
+                OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.Deepslate_Filad_Ore.getDefaultState())
                 );
-                
+        
+        register(context, FILAD_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldFiladOres, 3));
          
     }
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {

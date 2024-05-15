@@ -6,6 +6,7 @@ import net.stilt.cursedmobsandpvp.block.ModBlocks;
 import net.stilt.cursedmobsandpvp.item.ModFoodComponents;
 import net.stilt.cursedmobsandpvp.item.ModItemGroups;
 import net.stilt.cursedmobsandpvp.item.ModItems;
+import net.stilt.cursedmobsandpvp.world.gen.ModWorldGeneration;
 import net.stilt.cursedmobsandpvp.event.CursedWoolAttackEventHandler;
 
 import org.slf4j.Logger;
@@ -26,5 +27,7 @@ public class CursedMobsAndPVP implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		
 		AttackBlockCallback.EVENT.register(new CursedWoolAttackEventHandler());
+
+		ModWorldGeneration.generateModWorldGen();
 	}
 }
