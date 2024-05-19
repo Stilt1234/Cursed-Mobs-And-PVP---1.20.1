@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "cursed-mobs-and-pvp:filad_ingot"
+        }    
+    },
+    "result": {
+        "item": "cursed-mobs-and-pvp:block_of_filad"
+    }
+}

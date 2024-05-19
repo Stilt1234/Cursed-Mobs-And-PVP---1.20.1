@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+        {
+            "item": "cursed-mobs-and-pvp:block_of_filad"
+        }
+    ],
+    "result": {
+        "item": "cursed-mobs-and-pvp:filad_ingot",
+        "count": 9
+    }
+}
